@@ -1,0 +1,25 @@
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration files
+.env
+
+# Version control
+.git/
+.github/
+.gitignore
+
+# IDE config folders
+.vscode/
+.idea/
