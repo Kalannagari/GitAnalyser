@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: git-analyzer
+    env: docker
+    plan: free
+    region: oregon # Render's default region
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: DEBUG
+        value: "false"
+      - key: GITHUB_TOKEN
+        sync: false # Set this in the Render dashboard to avoid rate limits
