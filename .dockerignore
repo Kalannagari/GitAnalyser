@@ -23,3 +23,9 @@ htmlcov/
 # IDE config folders
 .vscode/
 .idea/
+
+# Node dependencies & builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
